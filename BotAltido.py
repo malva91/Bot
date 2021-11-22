@@ -1,5 +1,3 @@
-pip install telebot
-
 import telebot
 
 API_TOKEN = '2129627912:AAF7SWe9K6vv26muU41TcvXlWTj2abTHkeg'
