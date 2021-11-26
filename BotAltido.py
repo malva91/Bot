@@ -3,8 +3,25 @@ import telebot
 API_TOKEN = '2129627912:AAF7SWe9K6vv26muU41TcvXlWTj2abTHkeg'
 
 bot = telebot.TeleBot(API_TOKEN)
-spazio = '\n\n***************************************************************\n\n'
+
+
+
+# Variabili appartamenti
+spazio = '\n\n\n--------------------------------------\n\n\n'
 bovio = 'Indirizzo:\nViao Giovanni Bovio, 9,Pisa\n\nNome:\nVia Bovio\n\nCodice:\nPIPSIF546\n\nComposizione:\n1 Matrimoniale\n1 Singola\n1 Bagno\n1 Cucina\n\nNote:\nNOI ABBIAMO CHIAVE DEL PTONE QUELLA DELL APPARTAMENTO è NEL PTA OMBRELLO'
+
+girasole = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nGirasole\n\nCodice:\nLUSIMF1081\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n'
+hibiscus = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nHibiscus\n\nCodice:\nLUSIMF1082\n\nComposizione:\n1 Matrimoniale\n2 Singoli (fatti a divano in cucina)\n1 Bagno\n1 Cucina\n\nNote:\n'
+iris = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nIris\n\nCodice:\nLUSIMF1083\n\nComposizione:\n1 Matrimoniale KING\n3 Singoli\n2 Bagno\n1 Cucina\n\nNote:\n'
+orchidea = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nOrchidea\n\nCodice:\nLUSIMF1084\n\nComposizione:\n1 Matrimoniale KING\n2 Singoli\n2 Bagno\n1 Cucina\n\nNote:\n'
+rosmarino = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nRosmarino\n\nCodice:\nLUSIMF1085\n\nComposizione:\n3 Matrimoniale\n2 Bagno\n1 Cucina\n\nNote:\n'
+rosa =  'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nRosa\n\nCodice:\nLUSIMF1086\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n'
+segrohimigno = girasole+spazio+hibiscus+spazio+iris+spazio+orchidea+spazio+rosmarino+spazio+rosa
+
+
+
+
+
 
 # Handle '/start' and '/help'
 @bot.message_handler(commands=['help','start'])
@@ -18,31 +35,28 @@ def send_welcome(message):
 def echo_message(message):
 
     if message.text == 'Bovio' or message.text == 'bovio' or message.text == 'PIPSIF546' or message.text == '546':
-        bot.reply_to(message, 'Indirizzo:\nViao Giovanni Bovio, 9,Pisa\n\nNome:\nVia Bovio\n\nCodice:\nPIPSIF546\n\nComposizione:\n1 Matrimoniale\n1 Singola\n1 Bagno\n1 Cucina\n\nNote:\nNOI ABBIAMO CHIAVE DEL PTONE QUELLA DELL APPARTAMENTO è NEL PTA OMBRELLO')
-
-    elif message.text == 'Prova':
-        bot.reply_to(message, bovio + spazio + bovio)
+        bot.reply_to(message,bovio)
         
     elif message.text == 'Segromigno' or message.text == 'segromigno':
-        bot.reply_to(message, 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nGirasole\n\nCodice:\nLUSIMF1081\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n' + '\n\n------------------------------\n\n' + 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nGirasole\n\nCodice:\nLUSIMF1081\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n' + '\n\n------------------------------\n\n' +  'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nHibiscus\n\nCodice:\nLUSIMF1082\n\nComposizione:\n1 Matrimoniale\n2 Singoli (fatti a divano in cucina)\n1 Bagno\n1 Cucina\n\nNote:\n' + '\n\n------------------------------\n\n' +   'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nIris\n\nCodice:\nLUSIMF1083\n\nComposizione:\n1 Matrimoniale KING\n3 Singoli\n2 Bagno\n1 Cucina\n\nNote:\n' + '\n\n------------------------------\n\n' +  'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nOrchidea\n\nCodice:\nLUSIMF1084\n\nComposizione:\n1 Matrimoniale KING\n2 Singoli\n2 Bagno\n1 Cucina\n\nNote:\n'  + '\n\n------------------------------\n\n' +   'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nRosmarino\n\nCodice:\nLUSIMF1085\n\nComposizione:\n3 Matrimoniale\n2 Bagno\n1 Cucina\n\nNote:\n'  + '\n\n------------------------------\n\n' +    'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nRosa\n\nCodice:\nLUSIMF1086\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n')
+        bot.reply_to(message, segrohimigno)
 
     elif message.text == 'Girasole' or message.text == 'girasole' or message.text == 'LUSIMF1081' or message.text == '1081':
-        bot.reply_to(message, 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nGirasole\n\nCodice:\nLUSIMF1081\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n')
+        bot.reply_to(message, girasole)
 
     elif message.text == 'Hibiscus' or message.text == 'hibiscus' or message.text == 'LUSIMF1082' or message.text == '1082':
-        bot.reply_to(message, 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nHibiscus\n\nCodice:\nLUSIMF1082\n\nComposizione:\n1 Matrimoniale\n2 Singoli (fatti a divano in cucina)\n1 Bagno\n1 Cucina\n\nNote:\n')
+        bot.reply_to(message, hibiscus )
 
     elif message.text == 'Iris' or message.text == 'iris' or message.text == 'LUSIMF1083' or message.text == '1083':
-        bot.reply_to(message, 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nIris\n\nCodice:\nLUSIMF1083\n\nComposizione:\n1 Matrimoniale KING\n3 Singoli\n2 Bagno\n1 Cucina\n\nNote:\n')
+        bot.reply_to(message, iris )
 
     elif message.text == 'Orchidea' or message.text == 'orchidea' or message.text == 'LUSIMF1084' or message.text == '1084':
-        bot.reply_to(message, 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nOrchidea\n\nCodice:\nLUSIMF1084\n\nComposizione:\n1 Matrimoniale KING\n2 Singoli\n2 Bagno\n1 Cucina\n\nNote:\n')
+        bot.reply_to(message, orchidea )
 
     elif message.text == 'Rosmarino' or message.text == 'rosmarino' or message.text == 'LUSIMF1085' or message.text == '1085':
-        bot.reply_to(message, 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nRosmarino\n\nCodice:\nLUSIMF1085\n\nComposizione:\n3 Matrimoniale\n2 Bagno\n1 Cucina\n\nNote:\n')
+        bot.reply_to(message, rosmarino )
 
     elif message.text == 'Rosa' or message.text == 'rosa' or message.text == 'LUSIMF1086' or message.text == '1086':
-        bot.reply_to(message, 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nRosa\n\nCodice:\nLUSIMF1086\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n')
+        bot.reply_to(message, rosa)
 
     elif message.text == 'Pisano' or message.text == 'pisano' or message.text == 'PIPSIF464' or message.text == '464':
         bot.reply_to(message, 'Indirizzo:\nViale Giovanni Pisano, 10, Pisa\n\nNome:\nVia Pisano\n\nCodice:\nPIPSIF464\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n')
