@@ -3,6 +3,7 @@ import telebot
 API_TOKEN = '2129627912:AAF7SWe9K6vv26muU41TcvXlWTj2abTHkeg'
 
 bot = telebot.TeleBot(API_TOKEN)
+spazio = '\n\n***************************************************************\n\n'
 bovio = 'Indirizzo:\nViao Giovanni Bovio, 9,Pisa\n\nNome:\nVia Bovio\n\nCodice:\nPIPSIF546\n\nComposizione:\n1 Matrimoniale\n1 Singola\n1 Bagno\n1 Cucina\n\nNote:\nNOI ABBIAMO CHIAVE DEL PTONE QUELLA DELL APPARTAMENTO è NEL PTA OMBRELLO'
 
 # Handle '/start' and '/help'
@@ -20,7 +21,7 @@ def echo_message(message):
         bot.reply_to(message, 'Indirizzo:\nViao Giovanni Bovio, 9,Pisa\n\nNome:\nVia Bovio\n\nCodice:\nPIPSIF546\n\nComposizione:\n1 Matrimoniale\n1 Singola\n1 Bagno\n1 Cucina\n\nNote:\nNOI ABBIAMO CHIAVE DEL PTONE QUELLA DELL APPARTAMENTO è NEL PTA OMBRELLO')
 
     elif message.text == 'Prova':
-        bot.reply_to(message, bovio)
+        bot.reply_to(message, bovio,spazio,bovio)
         
     elif message.text == 'Segromigno' or message.text == 'segromigno':
         bot.reply_to(message, 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nGirasole\n\nCodice:\nLUSIMF1081\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n' + '\n\n------------------------------\n\n' + 'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nGirasole\n\nCodice:\nLUSIMF1081\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n' + '\n\n------------------------------\n\n' +  'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nHibiscus\n\nCodice:\nLUSIMF1082\n\nComposizione:\n1 Matrimoniale\n2 Singoli (fatti a divano in cucina)\n1 Bagno\n1 Cucina\n\nNote:\n' + '\n\n------------------------------\n\n' +   'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nIris\n\nCodice:\nLUSIMF1083\n\nComposizione:\n1 Matrimoniale KING\n3 Singoli\n2 Bagno\n1 Cucina\n\nNote:\n' + '\n\n------------------------------\n\n' +  'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nOrchidea\n\nCodice:\nLUSIMF1084\n\nComposizione:\n1 Matrimoniale KING\n2 Singoli\n2 Bagno\n1 Cucina\n\nNote:\n'  + '\n\n------------------------------\n\n' +   'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nRosmarino\n\nCodice:\nLUSIMF1085\n\nComposizione:\n3 Matrimoniale\n2 Bagno\n1 Cucina\n\nNote:\n'  + '\n\n------------------------------\n\n' +    'Indirizzo:\nVia delle Selvette, 233, 55018, Capanni, Lucca\n\nNome:\nRosa\n\nCodice:\nLUSIMF1086\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n')
