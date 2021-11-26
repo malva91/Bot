@@ -63,7 +63,7 @@ def send_welcome(message):
 @bot.message_handler(func=lambda message: True)
 def echo_message(message):
     if message.text == 'Aiuto' or message.text == 'aiuto':
-        bot.replay_to(message, aiuto)
+        bot.reply_to(message, aiuto)
 
     elif message.text == 'Bovio' or message.text == 'bovio' or message.text == 'PIPSIF546' or message.text == '546':
         bot.reply_to(message,bovio)
