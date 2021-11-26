@@ -19,7 +19,7 @@ def echo_message(message):
     if message.text == 'Bovio' or message.text == 'bovio' or message.text == 'PIPSIF546' or message.text == '546':
         bot.reply_to(message, 'Indirizzo:\nViao Giovanni Bovio, 9,Pisa\n\nNome:\nVia Bovio\n\nCodice:\nPIPSIF546\n\nComposizione:\n1 Matrimoniale\n1 Singola\n1 Bagno\n1 Cucina\n\nNote:\nNOI ABBIAMO CHIAVE DEL PTONE QUELLA DELL APPARTAMENTO è NEL PTA OMBRELLO')
 
-    elif message.text == 'Prova'
+    elif message.text == 'Prova':
         bot.reply_to(message, bovio)
         
     elif message.text == 'Segromigno' or message.text == 'segromigno':
