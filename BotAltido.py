@@ -10,12 +10,12 @@ bot = telebot.TeleBot(API_TOKEN)
 spazio = '\n\n\n--------------------------------------\n\n\n'
 bovio = 'Indirizzo:\nViao Giovanni Bovio, 9,Pisa\n\nNome:\nVia Bovio\n\nCodice:\nPIPSIF546\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\nNOI ABBIAMO CHIAVE DEL PTONE QUELLA DELL APPARTAMENTO è NEL PTA OMBRELLO'
 
-girasole = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nGirasole\n\nCodice:\nLUSIMF1081\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n'
+girasole = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nGirasole\n\nCodice:\nLUSIMF1081\n\nComposizione:\n1 Matrimoniale\n2Singoli\n1 Bagno\n1 Cucina\n\nNote:\n'
 hibiscus = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nHibiscus\n\nCodice:\nLUSIMF1082\n\nComposizione:\n1 Matrimoniale\n2 Singoli (fatti a divano in cucina)\n1 Bagno\n1 Cucina\n\nNote:\n'
 iris = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nIris\n\nCodice:\nLUSIMF1083\n\nComposizione:\n1 Matrimoniale KING\n3 Singoli\n2 Bagno\n1 Cucina\n\nNote:\n'
 orchidea = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nOrchidea\n\nCodice:\nLUSIMF1084\n\nComposizione:\n1 Matrimoniale KING\n2 Singoli\n2 Bagno\n1 Cucina\n\nNote:\n'
 rosmarino = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nRosmarino\n\nCodice:\nLUSIMF1085\n\nComposizione:\n3 Matrimoniale\n2 Bagno\n1 Cucina\n\nNote:\n'
-rosa =  'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nRosa\n\nCodice:\nLUSIMF1086\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n'
+rosa =  'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nRosa\n\nCodice:\nLUSIMF1086\n\nComposizione:\n1 Matrimoniale\n2 Singoli \n2 Bagno\n1 Cucina\n\nNote:\n'
 segrohimigno = girasole+spazio+hibiscus+spazio+iris+spazio+orchidea+spazio+rosmarino+spazio+rosa
 
 
