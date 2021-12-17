@@ -21,8 +21,8 @@ segrohimigno = girasole+spazio+hibiscus+spazio+iris+spazio+orchidea+spazio+rosma
 
 pisano = 'Indirizzo:\nViale Giovanni Pisano, 10, Pisa\n\nNome:\nVia Pisano\n\nCodice:\nPIPSIF464\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\n'
 puccini = 'Indirizzo:\nVia Giacomo Puccini, 151, Viareggio\n\nNome:\nVia Puccini\n\nCodice:\nLUVRGF747\n\nComposizione:\n2 Matrimoniale\n2 Divano Letto\n2 Singoli\n2 Bagno\n1 Cucina\n\nNote:\nABBIAMO LA CHIAVE DEL PORTONE MENTRE DELLA CASA è NEL PORTA OMBRELLO'
-ville = 'Indirizzo:\n/\n\nNome:\nVia delle Ville\n\nCodice:\nLUMSGF997\n\nComposizione:n\nNote:\n'
-alessio ='Indirizzo:\nVia di Sant Alessio, 25, Lucca\n\nNome:\nVia di Sant Alessio\n\nCodice:\nLULCCF433\n\nComposizione:\n\nDati ancora mancanti\n\nNote:\n'
+ville = 'Indirizzo:\n/\n\nNome:\nVia delle Ville\n\nCodice:\nLUMSGF997\n\nComposizione:\n\nDati ancora mancanti\n\nNote:\n'
+alessio ='Indirizzo:\nVia di Sant Alessio, 25, Lucca\n\nNome:\nVia di Sant Alessio\n\nCodice:\nLULCCF433\n\nComposizione:\n2 Matrimoniale\n1 Bagno\n1Cucina\n\nNote:\n'
 antonio = 'Indirizzo:\nVia di Sant Antonio, 8, Pisa\n\nNome:\nVia di Sant Antonio\n\nCodice:\nPIPSIF1102\n\nComposizione:\n1 Matrimoniale\n1 Divano letto\n1 Bagno\n1 Cucina\n\nNote:\n'
 mancini = 'Indirizzo:\nVia Augusto Mancini, 49, Lucca\n\nNome:\nVia Mancini\n\nCodice:\nLULCCF686\n\nComposizione:\n\nDati ancora mancanti\n\nNote:\nLE CHIAVI SONO NELLA CASSETTA DELLA POSTA'
 facchini = 'Indirizzo:\nVia dei Facchini, 10, Pisa\n\nNome:\nVia Facchini\n\nCodice:\nPIPSIF635\n\nComposizione:\n1 Matrimoniale\n1(2) Sigoli a castello\n1 Bagno\n1 Cucina\n\nNote:\n'
