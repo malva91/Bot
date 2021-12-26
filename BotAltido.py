@@ -1,17 +1,24 @@
 import telebot
+from oauth2client.service_account import ServiceAccountCredentials
 import gspread
-scope = ['https://spreadsheets.google.com/feeds']
-credentials = ServiceAccountCredentials.from_json_keyfile_name('infoaltidobot-1415ef45e65f.json', 'scope')
-gc = gspread.authorize(credentials)
-sheet = gc.open_by_url('https://docs.google.com/spreadsheets/d/1bGhvpZco9fRKX56SNdu7VwHkOjZppBEAt5SFZAyCauo/edit#gid=0')
-worksheet = sheet.get_worksheet
+import json
+scopes = [
+    'https://www.googleapis.com/auth/spreadsheets',
+    'https://www.googleapis.com/auth/drive'
+]
+credentials = ServiceAccountCredentials.from_json_keyfile_name(
+    "[infoaltidobot-1415ef45e65f].json", scopes)  # access the json key you downloaded earlier
+# authenticate the JSON key with gspread
+file = gspread.authorize(credentials)
+sheet = file.open("https://docs.google.com/spreadsheets/d/1bGhvpZco9fRKX56SNdu7VwHkOjZppBEAt5SFZAyCauo/edit#gid=0")  # open sheet
+# replace sheet_name with the name that corresponds to yours, eg, it can be sheet1
+sheet = sheet.sheet_name
 
-API=sheet.acell('A2').value
+API = sheet.acell('A2').value
 
 API_TOKEN = API
 
 bot = telebot.TeleBot(API_TOKEN)
-
 
 
 # Variabili appartamenti
