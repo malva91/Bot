@@ -1,6 +1,14 @@
 import telebot
+import gspread
+scope = ['https://spreadsheets.google.com/feeds']
+credentials = ServiceAccountCredentials.from_json_keyfile_name('infoaltidobot-1415ef45e65f.json', 'scope')
+gc = gspread.authorize(credentials)
+sheet = gc.open_by_url('https://docs.google.com/spreadsheets/d/1bGhvpZco9fRKX56SNdu7VwHkOjZppBEAt5SFZAyCauo/edit#gid=0')
+worksheet = sheet.get_worksheet
 
-API_TOKEN = 'AAHLqGNOtB67dX7vspJOlWr2eqeguGMmKCQ'
+API=sheet.acell('A2').value
+
+API_TOKEN = API
 
 bot = telebot.TeleBot(API_TOKEN)
 
