@@ -1,5 +1,6 @@
 import telebot
-from oauth2client.service_account import ServiceAccountCredentials
+from oauth2client.service_account 
+import ServiceAccountCredentials
 import gspread
 import json
 scopes = [
