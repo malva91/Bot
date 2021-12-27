@@ -1,30 +1,9 @@
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
-from pprint import pprint
-from openpyxl import load_workbook
-import pickle
-import datetime
-from datetime import datetime
 import telebot
-from telebot import types
-import os
-import xlsxwriter
 
-#variabili API google
-scope =  ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("API.json", scope)
-client = gspread.authorize(creds)
-sheet = client.open_by_key('1bGhvpZco9fRKX56SNdu7VwHkOjZppBEAt5SFZAyCauo').sheet1
-#variabili API telegram
-API = sheet.acell('A2').value
-API_TOKEN = API
-tb = telebot.TeleBot(API_TOKEN, parse_mode='HTML')
-
-
-
-
+API_TOKEN = 'AAHxK_cNkPXM8SOtt-2LOBK2DDJQ687wc_Q'
 
 bot = telebot.TeleBot(API_TOKEN)
+
 
 
 # Variabili appartamenti
