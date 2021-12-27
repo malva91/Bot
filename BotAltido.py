@@ -1,22 +1,30 @@
-import telebot
-from oauth2client.service_account import ServiceAccountCredentials
 import gspread
-import json
-scopes = [
-    'https://www.googleapis.com/auth/spreadsheets',
-    'https://www.googleapis.com/auth/drive'
-]
-credentials = ServiceAccountCredentials.from_json_keyfile_name(
-    "[infoaltidobot-1415ef45e65f].json", scopes)  # access the json key you downloaded earlier
-# authenticate the JSON key with gspread
-file = gspread.authorize(credentials)
-sheet = file.open("https://docs.google.com/spreadsheets/d/1bGhvpZco9fRKX56SNdu7VwHkOjZppBEAt5SFZAyCauo/edit#gid=0")  # open sheet
-# replace sheet_name with the name that corresponds to yours, eg, it can be sheet1
-sheet = sheet.sheet_name
+from oauth2client.service_account import ServiceAccountCredentials
+from pprint import pprint
+from openpyxl import load_workbook
+import pickle
+import datetime
+from datetime import datetime
+import telebot
+from telebot import types
+import os
+import xlsxwriter
 
+#variabili API google
+scope =  ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
+creds = ServiceAccountCredentials.from_json_keyfile_name("infoaltidobot-1415ef45e65f.json", scope)
+client = gspread.authorize(creds)
+sheet = client.open_by_key('1bGhvpZco9fRKX56SNdu7VwHkOjZppBEAt5SFZAyCauo').sheet1
+#variabili API telegram
 API = sheet.acell('A2').value
-
 API_TOKEN = API
+tb = telebot.TeleBot(API_TOKEN, parse_mode='HTML')
+#variabili globali
+cartella=load_workbook(filename='Variabili.xlsx', data_only=True)
+print (cartella.sheetnames)
+
+
+
 
 bot = telebot.TeleBot(API_TOKEN)
 
