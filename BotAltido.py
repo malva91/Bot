@@ -12,16 +12,14 @@ import xlsxwriter
 
 #variabili API google
 scope =  ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("infoaltidobot-1415ef45e65f.json", scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name("API.json", scope)
 client = gspread.authorize(creds)
 sheet = client.open_by_key('1bGhvpZco9fRKX56SNdu7VwHkOjZppBEAt5SFZAyCauo').sheet1
 #variabili API telegram
 API = sheet.acell('A2').value
 API_TOKEN = API
 tb = telebot.TeleBot(API_TOKEN, parse_mode='HTML')
-#variabili globali
-cartella=load_workbook(filename='Variabili.xlsx', data_only=True)
-print (cartella.sheetnames)
+
 
 
 
