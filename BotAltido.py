@@ -10,37 +10,37 @@ bot = telebot.TeleBot(API_TOKEN)
 
 # Variabili appartamenti
 spazio = '\n\n\n--------------------------------------\n\n\n'
-bovio = 'Indirizzo:\nViao Giovanni Bovio, 9,Pisa\n\nNome:\nVia Bovio\n\nCodice:\nPIPSIF546\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\nNote:\nNOI ABBIAMO CHIAVE DEL PTONE QUELLA DELL APPARTAMENTO è NEL PTA OMBRELLO'
+bovio = 'Indirizzo:\nViao Giovanni Bovio, 9,Pisa\n\nNome:\nVia Bovio\n\nCodice:\nPIPSIF546\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\n1 ore\n\nNote:\nNOI ABBIAMO CHIAVE DEL PTONE QUELLA DELL APPARTAMENTO è NEL PTA OMBRELLO'
 
-girasole = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nGirasole\n\nCodice:\nLUSIMF1081\n\nComposizione:\n1 Matrimoniale\n2 Singoli\n1 Bagno\n1 Cucina\nOre:\n2 ore e mezzo\n\nnNote:\n'
-hibiscus = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nHibiscus\n\nCodice:\nLUSIMF1082\n\nComposizione:\n1 Matrimoniale\n2 Singoli (fatti a divano in cucina)\n1 Bagno\n1 Cucina\nOre:\n1 ora e mezzo\n\nNote:\n'
-iris = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nIris\n\nCodice:\nLUSIMF1083\n\nComposizione:\n1 Matrimoniale KING\n3 Singoli\n2 Bagno\n1 CucinaOre:\n1 ora e mezzo\n\nNote:\n'
-orchidea = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nOrchidea\n\nCodice:\nLUSIMF1084\n\nComposizione:\n1 Matrimoniale KING\n2 Singoli\n2 Bagno\n1 Cucina\nOre:\n2 ore\n\nNote:\n'
-rosmarino = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nRosmarino\n\nCodice:\nLUSIMF1085\n\nComposizione:\n3 Matrimoniale\n2 Bagno\n1 CucinaOre:\n3 ore\n\nNote:\n'
-rosa =  'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nRosa\n\nCodice:\nLUSIMF1086\n\nComposizione:\n1 Matrimoniale\n2 Singoli \n2 Bagno\n1 Cucina\nOre:\n2 ore e mezzo\n\nNote:\n'
+girasole = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nGirasole\n\nCodice:\nLUSIMF1081\n\nComposizione:\n1 Matrimoniale\n2 Singoli\n1 Bagno\n1 Cucina\nOre:\n\n2 ore e mezzo\n\nnNote:\n'
+hibiscus = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nHibiscus\n\nCodice:\nLUSIMF1082\n\nComposizione:\n1 Matrimoniale\n2 Singoli (fatti a divano in cucina)\n1 Bagno\n1 Cucina\nOre:\n\n1 ora e mezzo\n\nNote:\n'
+iris = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nIris\n\nCodice:\nLUSIMF1083\n\nComposizione:\n1 Matrimoniale KING\n3 Singoli\n2 Bagno\n1 CucinaOre:\n\n1 ora e mezzo\n\nNote:\n'
+orchidea = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nOrchidea\n\nCodice:\nLUSIMF1084\n\nComposizione:\n1 Matrimoniale KING\n2 Singoli\n2 Bagno\n1 Cucina\nOre:\n\n2 ore\n\nNote:\n'
+rosmarino = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nRosmarino\n\nCodice:\nLUSIMF1085\n\nComposizione:\n3 Matrimoniale\n2 Bagno\n1 CucinaOre:\n\n3 ore\n\nNote:\n'
+rosa =  'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nRosa\n\nCodice:\nLUSIMF1086\n\nComposizione:\n1 Matrimoniale\n2 Singoli \n2 Bagno\n1 Cucina\nOre:\n\n2 ore e mezzo\n\nNote:\n'
 segrohimigno = girasole+spazio+hibiscus+spazio+iris+spazio+orchidea+spazio+rosmarino+spazio+rosa
 
 
-pisano = 'Indirizzo:\nViale Giovanni Pisano, 10, Pisa\n\nNome:\nVia Pisano\n\nCodice:\nPIPSIF464\n\nComposizione:\n1 Matrimoniale\n2 Singoli\n1 Divano letto\n1 Bagno\n1 Cucina\nOre:\n1 ora\n\nNote:\n'
-puccini = 'Indirizzo:\nVia Giacomo Puccini, 151, Viareggio\n\nNome:\nVia Puccini\n\nCodice:\nLUVRGF747\n\nComposizione:\n2 Matrimoniale\n3 Divano Letto\n2 Singoli\n2 Bagno\n2 Cucina\nOre:\n2 ore\n\nNote:\nABBIAMO LA CHIAVE DEL PORTONE MENTRE DELLA CASA è NEL PORTA OMBRELLO'
-ville = 'Indirizzo:\n/\n\nNome:\nVia delle Ville\n\nCodice:\nLUMSGF997\n\nComposizione:\n\nDati ancora mancanti\nOre:\n0 ore\n\nNote:\n'
-alessio ='Indirizzo:\nVia di Sant Alessio, 25, Lucca\n\nNome:\nVia di Sant Alessio\n\nCodice:\nLULCCF433\n\nComposizione:\n2 Matrimoniale\n1 Bagno\n1Cucina\nOre:\n1 ora e mezzo\n\nNote:\n'
-antonio = 'Indirizzo:\nVia di Sant Antonio, 6, Pisa\n\nNome:\nVia di Sant Antonio\n\nCodice:\nPIPSIF1102\n\nComposizione:\n1 Matrimoniale\n1 Divano letto\n2 Singoli\n1 Bagno\n1 Cucina\nOre:\n2 ore\n\nNote:\n'
-mancini = 'Indirizzo:\nVia Augusto Mancini, 49, Lucca\n\nNome:\nVia Mancini\n\nCodice:\nLULCCF686\n\nComposizione:\n2 Matrimoniale\n1 Singolo\n1 Divano letto\n2 Bagni\n1 Cucina\nOre:\n2 ore\n\nNote:\nLE CHIAVI SONO NELLA CASSETTA DELLA POSTA'
-facchini = 'Indirizzo:\nVia dei Facchini, 10, Pisa\n\nNome:\nVia Facchini\n\nCodice:\nPIPSIF635\n\nComposizione:\n1 Matrimoniale\n\n1 Divano letto\n2 Sigoli\n1 Bagno\n1 Cucina\nOre:\n1 ora e mezzo\n\nNote:\n'
-vico = 'Indirizzo:\nVia Giovan Battista Vico, 19, Forte dei Marmi\n\nNome:\nVico\n\nCodice:\nLUFRTF468\n\nComposizione:\n2 Matrimoniale\n1 Sigolo\n1 Poltrola Letto\n1 Bagno\n1 Cucina\nOre:\n2 ore\n\nNote:\n'
-luigiPera = 'Indirizzo:\nVia Luigi Pera ,14, Pisa\n\nNome:\nCisanello\n\nCodice:\nPIPSIF1106\n\nComposizione:\n1 Matrimoniale\n1 Divano letto\n1 Bagno\n1 Cucina\nOre:\n1 ora\nNote:\n'
+pisano = 'Indirizzo:\nViale Giovanni Pisano, 10, Pisa\n\nNome:\nVia Pisano\n\nCodice:\nPIPSIF464\n\nComposizione:\n1 Matrimoniale\n2 Singoli\n1 Divano letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora\n\nNote:\n'
+puccini = 'Indirizzo:\nVia Giacomo Puccini, 151, Viareggio\n\nNome:\nVia Puccini\n\nCodice:\nLUVRGF747\n\nComposizione:\n2 Matrimoniale\n3 Divano Letto\n2 Singoli\n2 Bagno\n2 Cucina\n\nOre:\n2 ore\n\nNote:\nABBIAMO LA CHIAVE DEL PORTONE MENTRE DELLA CASA è NEL PORTA OMBRELLO'
+ville = 'Indirizzo:\nNome:\nVia delle Ville\n\nCodice:\nLUMSGF997\n\nComposizione:\n\nDati ancora mancanti\n\nOre:\n0 ore\n\nNote:\n'
+alessio ='Indirizzo:\nVia di Sant Alessio, 25, Lucca\n\nNome:\nVia di Sant Alessio\n\nCodice:\nLULCCF433\n\nComposizione:\n2 Matrimoniale\n1 Bagno\n1Cucina\n\nOre:\n1 ora e mezzo\n\nNote:\n'
+antonio = 'Indirizzo:\nVia di Sant Antonio, 6, Pisa\n\nNome:\nVia di Sant Antonio\n\nCodice:\nPIPSIF1102\n\nComposizione:\n1 Matrimoniale\n1 Divano letto\n2 Singoli\n1 Bagno\n1 Cucina\n\nOre:\n2 ore\n\nNote:\n'
+mancini = 'Indirizzo:\nVia Augusto Mancini, 49, Lucca\n\nNome:\nVia Mancini\n\nCodice:\nLULCCF686\n\nComposizione:\n2 Matrimoniale\n1 Singolo\n1 Divano letto\n2 Bagni\n1 Cucina\n\nOre:\n2 ore\n\nNote:\nLE CHIAVI SONO NELLA CASSETTA DELLA POSTA'
+facchini = 'Indirizzo:\nVia dei Facchini, 10, Pisa\n\nNome:\nVia Facchini\n\nCodice:\nPIPSIF635\n\nComposizione:\n1 Matrimoniale\n\n1 Divano letto\n2 Sigoli\n1 Bagno\n1 Cucina\n\nOre:\n1 ora e mezzo\n\nNote:\n'
+vico = 'Indirizzo:\nVia Giovan Battista Vico, 19, Forte dei Marmi\n\nNome:\nVico\n\nCodice:\nLUFRTF468\n\nComposizione:\n2 Matrimoniale\n1 Sigolo\n1 Poltrola Letto\n1 Bagno\n1 Cucina\n\nOre:\n2 ore\n\nNote:\n'
+luigiPera = 'Indirizzo:\nVia Luigi Pera ,14, Pisa\n\nNome:\nCisanello\n\nCodice:\nPIPSIF1106\n\nComposizione:\n1 Matrimoniale\n1 Divano letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora\nNote:\n'
 
-gagnoVerde = 'Indirizzo:\nVia di Gagno, 50, Pisa (Primo piano)\n\nNome:\nGagno verde\n\nCodice:\nPIPSIF720\n\nComposizione:\n1 Matrimoniale\n1 Divano Letto\n1 Bagno\n1 Cucina\nOre:\n1 ora\n\nNote:\n'
-gagnoBlu = 'Indirizzo:\nVia di Gagno, 50, Pisa (Secondo piano)\n\nNome:\nGagno blu\n\nCodice:\nPIPSIF719\n\nComposizione:\n1 Matrimoniale\n1 Divano Letto\n1 Bagno\n1 Cucina\nOre:\n1 ora\n\nNote:\n'
-gagnoGiallo = 'Indirizzo:\nVia di Gagno, 50, Pisa (Penultimo piano)\n\nNome:\nGagno giallo\n\nCodice:\nPIPSIF1096\n\nComposizione:\n1 Matrimoniale\n1 Divano Letto\n1 Bagno\n1 Cucina\nOre:\n1 ora\n\nNote:\n'
-gagnoRosso = 'Indirizzo:\nVia di Gagno, 50, Pisa (Ultimo piano)\n\nNome:\nGagno rosso\n\nCodice:\nPIPSIF721\n\nComposizione:\n2 Matrimoniale\n1 Divano Letto\n1 Bagno\n1 Cucina\nOre:\n1 ora e mezzo\n\nNote:\n'
+gagnoVerde = 'Indirizzo:\nVia di Gagno, 50, Pisa (Primo piano)\n\nNome:\nGagno verde\n\nCodice:\nPIPSIF720\n\nComposizione:\n1 Matrimoniale\n1 Divano Letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora\n\nNote:\n'
+gagnoBlu = 'Indirizzo:\nVia di Gagno, 50, Pisa (Secondo piano)\n\nNome:\nGagno blu\n\nCodice:\nPIPSIF719\n\nComposizione:\n1 Matrimoniale\n1 Divano Letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora\n\nNote:\n'
+gagnoGiallo = 'Indirizzo:\nVia di Gagno, 50, Pisa (Penultimo piano)\n\nNome:\nGagno giallo\n\nCodice:\nPIPSIF1096\n\nComposizione:\n1 Matrimoniale\n1 Divano Letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora\n\nNote:\n'
+gagnoRosso = 'Indirizzo:\nVia di Gagno, 50, Pisa (Ultimo piano)\n\nNome:\nGagno rosso\n\nCodice:\nPIPSIF721\n\nComposizione:\n2 Matrimoniale\n1 Divano Letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora e mezzo\n\nNote:\n'
 gagno = gagnoVerde+spazio+gagnoBlu+spazio+gagnoGiallo+spazio+gagnoGiallo
 
-lenzeTot = 'Indirizzo:\nVia delle Lenze, 122, 56122 Pisa\n\nNome:\nVia delle Lenze TOTALE\n\nCodice:\nPIPSIF1031\n\nComposizione:\n2 Matrimoniale\n2 Singoli\n3 Bagni\n1 Cucina\nOre:\n2 ore\n\nNote:\n'
-lenzePT = 'Indirizzo:\nVia delle Lenze, 122, 56122 Pisa\n\nNome:\nVia delle Lenze PIANO TERRA\n\nCodice:\nPIPSIF1032\n\nComposizione:\n1 Matrimoniale\n1 Bagno\nOre:\n1 ora\nNote:\n'
-lenze1P = 'Indirizzo:\nVia delle Lenze, 122, 56122 Pisa\n\nNome:\nVia delle Lenze PRIMO PIANO\n\nCodice:\nPIPSIF1033\n\nComposizione:\n2 Singoli\n1 Bagno\nOre:\n1 ora\nNote:\n'
-lenze1PT = 'Indirizzo:\nVia delle Lenze, 122, 56122 Pisa\n\nNome:\nVia delle Lenze PRIMO PIANO CON TERRAZZO\n\nCodice:\nPIPSIF10334\n\nComposizione:\n1 Matrimoniale\n1 Bagno\nNote:\n'
+lenzeTot = 'Indirizzo:\nVia delle Lenze, 122, 56122 Pisa\n\nNome:\nVia delle Lenze TOTALE\n\nCodice:\nPIPSIF1031\n\nComposizione:\n2 Matrimoniale\n2 Singoli\n3 Bagni\n1 Cucina\n\nOre:\n2 ore\n\nNote:\n'
+lenzePT = 'Indirizzo:\nVia delle Lenze, 122, 56122 Pisa\n\nNome:\nVia delle Lenze PIANO TERRA\n\nCodice:\nPIPSIF1032\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n\nOre:\n1 ora\nNote:\n'
+lenze1P = 'Indirizzo:\nVia delle Lenze, 122, 56122 Pisa\n\nNome:\nVia delle Lenze PRIMO PIANO\n\nCodice:\nPIPSIF1033\n\nComposizione:\n2 Singoli\n1 Bagno\n\nOre:\n1 ora\nNote:\n'
+lenze1PT = 'Indirizzo:\nVia delle Lenze, 122, 56122 Pisa\n\nNome:\nVia delle Lenze PRIMO PIANO CON TERRAZZO\n\nCodice:\nPIPSIF10334\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n\nOra:\n1 ora\n\nNote:\n'
 lenze = lenzePT+spazio+lenze1P+spazio+lenze1PT
 
 lista = '-Girasole\n-Hibiscus\n-iris\n-orchidea\n-Rosmarino\n-Rosa\n-Segromigno(gli raggruppa)\n\n-Gagno rosso\nGagno giallo\n-Gagno verde\n-Gagno blu\n-Gagno(gli raggruppa)\n\n-Lenze totale\n-Lenze pt(Piano terra)\n-Lenze 1p(primo piano\n-Lenze 1pt(primo piano con terrazzo)\n-Lenze (gli raggruppa)\n\n-Pisano\n-Puccini\n-Ville (Via delle Ville)\n-Alessio (Sant Alessio)\nAntonio (Sant Antonio)\n-Mancini\n-Bovio\n-Facchini\n-Vico\n-LuigiPera(va bene anche solo Luigi o Pera)'
