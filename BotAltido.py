@@ -18,7 +18,7 @@ iris = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nI
 orchidea = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nOrchidea\n\nCodice:\nLUSIMF1084\n\nComposizione:\n1 Matrimoniale KING\n2 Singoli\n2 Bagno\n1 Cucina\n\nOre:\n2 ore\n\nNote:\n'
 rosmarino = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nRosmarino\n\nCodice:\nLUSIMF1085\n\nComposizione:\n3 Matrimoniale\n2 Bagno\n1 Cucina\n\nOre:\n3 ore\n\nNote:\n'
 rosa =  'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nRosa\n\nCodice:\nLUSIMF1086\n\nComposizione:\n1 Matrimoniale\n2 Singoli \n2 Bagno\n1 Cucina\n\nOre:\n2 ore e mezzo\n\nNote:\n'
-segrohimigno = girasole+spazio+hibiscus+spazio+iris+spazio+orchidea+spazio+rosmarino+spazio+rosa
+segromigno = girasole+spazio+hibiscus+spazio+iris+spazio+orchidea+spazio+rosmarino+spazio+rosa
 
 
 pisano = 'Indirizzo:\nViale Giovanni Pisano, 10, Pisa\n\nNome:\nVia Pisano\n\nCodice:\nPIPSIF464\n\nComposizione:\n1 Matrimoniale\n2 Singoli\n1 Divano letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora\n\nNote:\n'
@@ -48,7 +48,6 @@ lista = '-Girasole\n-Hibiscus\n-iris\n-orchidea\n-Rosmarino\n-Rosa\n-Segromigno(
 aiuto = '- Puoi inserire nome o codice dell appartamento\n\n- "Lista" avrai la lista completa degli appartamenti\n\n- "Segromigno" raggruppa gli appartaemnti di Segromigno\n\n- "Gagno" raggruppa gli appartamenti di gagno\n\n- "Lenze" raggruppa gli appartaemnti di Via delle Lenze'
 
 
-# Handle '/start' and '/help'
 @bot.message_handler(commands=['help','start'])
 def send_welcome(message):
     bot.reply_to(
@@ -66,7 +65,7 @@ def echo_message(message):
         bot.reply_to(message,bovio)
 
     elif message.text == 'Segromigno' or message.text == 'segromigno':
-        bot.reply_to(message, segrohimigno)
+        bot.reply_to(message, segromigno)
 
     elif message.text == 'Girasole' or message.text == 'girasole' or message.text == 'LUSIMF1081' or message.text == '1081':
         bot.reply_to(message, girasole)
@@ -154,7 +153,7 @@ def echo_message(message):
 
 
     else:
-        bot.reply_to(message, 'Non riconosco l appartamento')
+        bot.reply_to(message, 'Non riconosco l appartamento\n\nprova a scrivere "Aiuto" o "Lista"')
 
 
 bot.infinity_polling()
