@@ -54,12 +54,12 @@ def send_welcome(message):
         message, 'Ciao, di che appartamento hai bisogno?')
 
 
-# Handle all other messages with content_type 'text' (content_types defaults to ['text'])
+
 @bot.message_handler(func=lambda message: True)
 def echo_message(message):
 
     if message.text == 'Aiuto' or message.text == 'aiuto':
-        bot.reply_to(aiuto)
+        bot.reply_to(message,aiuto)
 
     elif message.text == 'Bovio' or message.text == 'bovio' or message.text == 'PIPSIF546' or message.text == '546':
         bot.reply_to(message,bovio)
@@ -153,7 +153,7 @@ def echo_message(message):
 
 
     else:
-        bot.reply_to(message, 'Non riconosco l appartamento\n\nprova a scrivere "Aiuto" o "Lista"')
+        bot.reply_to(message, 'Non riconosco l appartamento\nprova a scrivere "Aiuto" o "Lista"')
 
 
 bot.infinity_polling()
