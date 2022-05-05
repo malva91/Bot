@@ -232,7 +232,7 @@ def echo_message(message):
         bot.reply_to(message, sunny)
 
     elif message.text == 'torre' or message.text == 'Torre'or message.text == 'TORRE':
-        bot.reply_to(message, sunny)
+        bot.reply_to(message, torre)
 
 
 
