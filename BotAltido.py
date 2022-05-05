@@ -43,6 +43,8 @@ lenze1P = 'Indirizzo:\nVia delle Lenze, 122, 56122 Pisa\n\nNome:\nVia delle Lenz
 lenze1PT = 'Indirizzo:\nVia delle Lenze, 122, 56122 Pisa\n\nNome:\nVia delle Lenze PRIMO PIANO CON TERRAZZO\n\nCodice:\nPIPSIF10334\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n\nOra:\n1 ora\n\nNote:\n'
 lenze = lenzePT+spazio+lenze1P+spazio+lenze1PT
 
+
+arco = 'Indirizzo:\nVIA DOMENICO CAVALCA 58\n\nNome:\nARCO ANTICO\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 1 SINGOLO/MATRIMONIALE + 1 BAGNO\n\nOspiti: 6\n\nOre:\n? ore\n\nNote:\n'
 lista = '-Girasole\n-Hibiscus\n-iris\n-orchidea\n-Rosmarino\n-Rosa\n-Segromigno(gli raggruppa)\n\n-Gagno rosso\nGagno giallo\n-Gagno verde\n-Gagno blu\n-Gagno(gli raggruppa)\n\n-Lenze totale\n-Lenze pt(Piano terra)\n-Lenze 1p(primo piano\n-Lenze 1pt(primo piano con terrazzo)\n-Lenze (gli raggruppa)\n\n-Pisano\n-Puccini\n-Ville (Via delle Ville)\n-Alessio (Sant Alessio)\nAntonio (Sant Antonio)\n-Mancini\n-Bovio\n-Facchini\n-Vico\n-LuigiPera(va bene anche solo Luigi o Pera)'
 
 aiuto = '- Puoi inserire nome o codice dell appartamento\n\n- "Lista" avrai la lista completa degli appartamenti\n\n- "Segromigno" raggruppa gli appartaemnti di Segromigno\n\n- "Gagno" raggruppa gli appartamenti di gagno\n\n- "Lenze" raggruppa gli appartaemnti di Via delle Lenze'
@@ -144,6 +146,10 @@ def echo_message(message):
 
     elif message.text == 'pera' or message.text == 'Pera'or message.text == 'luigi' or message.text == 'Luigi'or message.text == '1106' or message.text == 'PIPSIF1106':
         bot.reply_to(message, luigiPera)
+        
+    elif message.text == 'arco' or message.text == 'Pera'or message.text == 'Arco' or message.text == 'Arco antico'or message.text == 'Arco Antico' or message.text == 'ARCO':
+        bot.reply_to(message, arco)
+
 
 
     elif message.text == 'Lista' or message.text == 'lista':
