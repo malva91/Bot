@@ -112,6 +112,7 @@ def echo_message(message):
     elif message.text == 'Antonio' or  message.text == 'antonio' or message.text == 'PIPSIF1102' or message.text == '1102':
         bot.reply_to(message, antonio)
 
+
     elif message.text == 'Mancini' or  message.text == 'mancini' or message.text == 'LULCCF686' or message.text == '686':
         bot.reply_to(message, mancini)
 
@@ -127,8 +128,10 @@ def echo_message(message):
     elif message.text == 'Gagno Red' or  message.text == 'gagno red' or message.text == 'Gagno red' or message.text == 'gagno Red'or  message.text == 'Gagno Rosso' or message.text == 'gagno rosso' or message.text == 'Gagno rosso' or message.text == 'gagno Rosso' or message.text == 'PIPSIF721' or message.text == '721':
         bot.reply_to(message, gagnoRosso)
 
+
     elif message.text == 'Gagno' or  message.text == 'gagno':
         bot.reply_to(message, gagno)
+
 
     elif message.text == 'Lenze totale' or  message.text == 'lenze totale' or message.text == 'PIPSIF1031' or message.text == '1031':
         bot.reply_to(message, lenzeTot)
@@ -157,10 +160,10 @@ def echo_message(message):
     elif message.text == 'arco' or message.text == 'Antico'or message.text == 'Arco' or message.text == 'Arco antico'or message.text == 'Arco Antico' or message.text == 'ARCO':
         bot.reply_to(message, arco)
 
-     elif message.text == 'BANDITELLE' or message.text == 'banditelle'or message.text == 'Banditelle':
+    elif message.text == 'BANDITELLE' or message.text == 'banditelle'or message.text == 'Banditelle':
         bot.reply_to(message, banditelle)
     
-     elif message.text == 'BOOKS' or message.text == 'Books'or message.text == 'books':
+    elif message.text == 'BOOKS' or message.text == 'Books'or message.text == 'books':
         bot.reply_to(message, books)
 
     elif message.text == 'ANGELI' or message.text == 'Angeli'or message.text == 'angeli':
@@ -176,15 +179,12 @@ def echo_message(message):
         bot.reply_to(message, charme1)
 
     elif message.text == 'CHARME2' or message.text == 'Charme2'or message.text == 'charme2':
-        bot.reply_to(message, Charme2)
+        bot.reply_to(message, charme2)
 
     elif message.text == 'CHARME3' or message.text == 'Charme3'or message.text == 'charme3':
         bot.reply_to(message, charme3)
 
-        
-        
-        
-        
+
     elif message.text == 'Lista' or message.text == 'lista':
         bot.reply_to(message, lista)
 
