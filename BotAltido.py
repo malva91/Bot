@@ -45,6 +45,16 @@ lenze = lenzePT+spazio+lenze1P+spazio+lenze1PT
 
 
 arco = 'Indirizzo:\nVIA DOMENICO CAVALCA 58\n\nNome:\nARCO ANTICO\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 1 SINGOLO/MATRIMONIALE + 1 BAGNO\n\nOspiti: 6\n\nOre:\n? ore\n\nNote:\n'
+banditelle = 'Indirizzo:\n??\n\nNome:\nBANDITELLE\n\nComposizione:\n2 MATRIMONIALI + 1 SINGOLO + 1 BAGNO\n\nOspiti: 5\n\nOre:\n? ore\n\nNote:\n'
+books = 'Indirizzo:\n??\n\nNome:\nBOOKS\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO SENZA MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n? ore\n\nNote:\n'
+angeli = 'Indirizzo:\nVIA DEI MILLE 2\n\nNome:\nCASA ANGELI\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 1 DIVANO LETTO SENZA MATERASSO + 1 BAGNO\n\nOspiti: 6\n\nOre:\n? ore\n\nNote:\n'
+livia = 'Indirizzo:\nVIA GERESCHI 18\n\nNome:\nCASA LIVIA\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 1 DIVANO LETTO SENZA MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n1 ore\n\nNote:\n'
+mercanti = 'Indirizzo:\nVIA MERCANTI 5\n\nNome:\nCASA MERCANTII\n\nComposizione:\n2 MATRIMONIALI + 1 DIVANO LETTO CON MATERASSO + 1 BAGNO\n\nOspiti: 6\n\nOre:\n? ore\n\nNote:\n'
+charme1 = 'Indirizzo:\nVIA BONAINI 35\n\nNome:\nCHARME 1\n\nComposizione:\n2 MATRIMONIALI + 1 DIVANO LETTO SENZA MATERASSO + 1 BAGNO\n\nOspiti: 6\n\nOre:\n1,5 ore\n\nNote:\n'
+charme2 = 'Indirizzo:\nVIA BONAINI 35\n\nNome:\nCHARME 2\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO SENZA MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n1 ore\n\nNote:\n'
+charme3 = 'Indirizzo:\nVIA BONAINI 35\n\nNome:\nCHARME 3\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO CON MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n1 ore\n\nNote:\n'
+
+
 lista = '-Girasole\n-Hibiscus\n-iris\n-orchidea\n-Rosmarino\n-Rosa\n-Segromigno(gli raggruppa)\n\n-Gagno rosso\nGagno giallo\n-Gagno verde\n-Gagno blu\n-Gagno(gli raggruppa)\n\n-Lenze totale\n-Lenze pt(Piano terra)\n-Lenze 1p(primo piano\n-Lenze 1pt(primo piano con terrazzo)\n-Lenze (gli raggruppa)\n\n-Pisano\n-Puccini\n-Ville (Via delle Ville)\n-Alessio (Sant Alessio)\nAntonio (Sant Antonio)\n-Mancini\n-Bovio\n-Facchini\n-Vico\n-LuigiPera(va bene anche solo Luigi o Pera)'
 
 aiuto = '- Puoi inserire nome o codice dell appartamento\n\n- "Lista" avrai la lista completa degli appartamenti\n\n- "Segromigno" raggruppa gli appartaemnti di Segromigno\n\n- "Gagno" raggruppa gli appartamenti di gagno\n\n- "Lenze" raggruppa gli appartaemnti di Via delle Lenze'
@@ -102,7 +112,6 @@ def echo_message(message):
     elif message.text == 'Antonio' or  message.text == 'antonio' or message.text == 'PIPSIF1102' or message.text == '1102':
         bot.reply_to(message, antonio)
 
-
     elif message.text == 'Mancini' or  message.text == 'mancini' or message.text == 'LULCCF686' or message.text == '686':
         bot.reply_to(message, mancini)
 
@@ -118,10 +127,8 @@ def echo_message(message):
     elif message.text == 'Gagno Red' or  message.text == 'gagno red' or message.text == 'Gagno red' or message.text == 'gagno Red'or  message.text == 'Gagno Rosso' or message.text == 'gagno rosso' or message.text == 'Gagno rosso' or message.text == 'gagno Rosso' or message.text == 'PIPSIF721' or message.text == '721':
         bot.reply_to(message, gagnoRosso)
 
-
     elif message.text == 'Gagno' or  message.text == 'gagno':
         bot.reply_to(message, gagno)
-
 
     elif message.text == 'Lenze totale' or  message.text == 'lenze totale' or message.text == 'PIPSIF1031' or message.text == '1031':
         bot.reply_to(message, lenzeTot)
@@ -147,11 +154,37 @@ def echo_message(message):
     elif message.text == 'pera' or message.text == 'Pera'or message.text == 'luigi' or message.text == 'Luigi'or message.text == '1106' or message.text == 'PIPSIF1106':
         bot.reply_to(message, luigiPera)
         
-    elif message.text == 'arco' or message.text == 'Pera'or message.text == 'Arco' or message.text == 'Arco antico'or message.text == 'Arco Antico' or message.text == 'ARCO':
+    elif message.text == 'arco' or message.text == 'Antico'or message.text == 'Arco' or message.text == 'Arco antico'or message.text == 'Arco Antico' or message.text == 'ARCO':
         bot.reply_to(message, arco)
 
+     elif message.text == 'BANDITELLE' or message.text == 'banditelle'or message.text == 'Banditelle':
+        bot.reply_to(message, banditelle)
+    
+     elif message.text == 'BOOKS' or message.text == 'Books'or message.text == 'books':
+        bot.reply_to(message, books)
 
+    elif message.text == 'ANGELI' or message.text == 'Angeli'or message.text == 'angeli':
+        bot.reply_to(message, angeli)
 
+    elif message.text == 'LIVIA' or message.text == 'Livia'or message.text == 'livia':
+        bot.reply_to(message, livia)
+
+    elif message.text == 'MERCANTI' or message.text == 'Mercanti'or message.text == 'mercanti':
+        bot.reply_to(message, mercanti)
+
+    elif message.text == 'CHARME1' or message.text == 'Charme1'or message.text == 'charme1':
+        bot.reply_to(message, charme1)
+
+    elif message.text == 'CHARME2' or message.text == 'Charme2'or message.text == 'charme2':
+        bot.reply_to(message, Charme2)
+
+    elif message.text == 'CHARME3' or message.text == 'Charme3'or message.text == 'charme3':
+        bot.reply_to(message, charme3)
+
+        
+        
+        
+        
     elif message.text == 'Lista' or message.text == 'lista':
         bot.reply_to(message, lista)
 
