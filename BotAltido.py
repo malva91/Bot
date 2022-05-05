@@ -53,9 +53,23 @@ mercanti = 'Indirizzo:\nVIA MERCANTI 5\n\nNome:\nCASA MERCANTII\n\nComposizione:
 charme1 = 'Indirizzo:\nVIA BONAINI 35\n\nNome:\nCHARME 1\n\nComposizione:\n2 MATRIMONIALI + 1 DIVANO LETTO SENZA MATERASSO + 1 BAGNO\n\nOspiti: 6\n\nOre:\n1,5 ore\n\nNote:\n'
 charme2 = 'Indirizzo:\nVIA BONAINI 35\n\nNome:\nCHARME 2\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO SENZA MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n1 ore\n\nNote:\n'
 charme3 = 'Indirizzo:\nVIA BONAINI 35\n\nNome:\nCHARME 3\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO CON MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n1 ore\n\nNote:\n'
+marta = 'Indirizzo:\nVIA SANTA MARTA 84\n\nNome:\nDA MARTA\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO CON MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n? ore\n\nNote:\n'
+fontina = 'Indirizzo:\n?\n\nNome:\nFONTINA 1\n\nComposizione:\n1 LETTO MATRIMONIALE + 1 BAGNO\n\nOspiti: 2\n\nOre:\n? ore\n\nNote:\n'
+cottage = 'Indirizzo:\nVIA FRANCESCO DOMENICO GUERRAZZI 8 (SAN GIULIANO )\n\nNome:\nGRANDMA^S COTTAGE\n\nComposizione:\n1 MATRIMONIALE + 1 SINGOLO + 1 DIVANO LETTO MATRIMONIALE SENZA MATERASSO + 1 BAGNO\n\nOspiti: 5\n\nOre:\n1,5 ore\n\nNote:\n'
+keith = 'Indirizzo:\nVIA GIUSEPPE MAZZINI 136\n\nNome:\nKEITH HARING\n\nComposizione:\n2 MATRIMONIALI + 2 DIVANI LETTO MATRIMONIALI SENZA MATERASSO + 2 BAGNI\n\nOspiti: 8\n\nOre:\n2 ore\n\nNote:\n'
+dune = 'Indirizzo:\nVIALE DEI PINI 85 (VECCHIANO)\n\nNome:\nLE DUNE\n\nComposizione:\n1 MATRIMANIALE + 1 BRANDINA SINGOLA + 1 BAGNO\n\nOspiti: 3\n\nOre:\n1 ore\n\nNote:\n'
+mura = 'Indirizzo:\n?\n\nNome:\nLE MURA\n\nComposizione:\n1 MATRIMONIALE + 1 DIBVANO LETTO MATRIMONIALE CON MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n1 ore\n\nNote:\n'
+loft = 'Indirizzo:\nVIA SAN CASCIANI 2C\n\nNome:\nLOFT\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO CON MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n? ore\n\nNote:\n'
+mda = 'Indirizzo:\nVIA DELLE MURELLA 40 (MADONNA DELL^ACQUUA)\n\nNome:\nMDA COUNTRYSIDE\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 1 DIVANO LETTO SENZA MATERASSO + 2 BAGNI\n\nOspiti: 6\n\nOre:\n1,5 ore\n\nNote:\n'
+sweet = 'Indirizzo:\nVIA PALLADIO 31 (BIENTINA)\n\nNome:\nSWEET\n\nComposizione:\n1 MATRIMONIALE + 1 SINGOLO/MATRIMONIALE + 1 DIVANO LETTO MATRIMONIALE SENZA MATERASSO + 2 BAGNI\n\nOspiti: 6\n\nOre:\n1,5 ore\n\nNote:\nPortare biancheria nostra'
+riverside = 'Indirizzo:\nVIA BONACCORSI DA PADULE 14\n\nNome:\nRIVERSIDE\n\nComposizione:\n3 MATRIMONIALI + 1 SINGOLO + 1 DIVANO LETTO SENZA MATERASSO + 2 BAGNI\n\nOspiti: 9\n\nOre:\n? ore\n\nNote:\n'
+maria =  'Indirizzo:\nVIA DON GETANO BOSCHI 1\n\nNome:\nSANTA MARIA\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO CON MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n1 ore\n\nNote:\n'
+sunny = 'Indirizzo:\nVIA LEONARDO DA VINCI 5\n\nNome:\nSUNNY\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 1 BAGNO\n\nOspiti: 4\n\nOre:\n2 ore\n\nNote:\n'
+torre = 'Indirizzo:\nVIA RISORGIMENTO 10\n\nNome:\nTORRE\n\nComposizione:\n2 MATRIMONIALI + 1 DIVANO LETTO SINGOLO CON MATERASSO + 2 BAGNI\n\nOspiti: 5\n\nOre:\n1,5 ore\n\nNote:\n'
+charme = charme1 + charme2 + charme3
 
 
-lista = '-Girasole\n-Hibiscus\n-iris\n-orchidea\n-Rosmarino\n-Rosa\n-Segromigno(gli raggruppa)\n\n-Gagno rosso\nGagno giallo\n-Gagno verde\n-Gagno blu\n-Gagno(gli raggruppa)\n\n-Lenze totale\n-Lenze pt(Piano terra)\n-Lenze 1p(primo piano\n-Lenze 1pt(primo piano con terrazzo)\n-Lenze (gli raggruppa)\n\n-Pisano\n-Puccini\n-Ville (Via delle Ville)\n-Alessio (Sant Alessio)\nAntonio (Sant Antonio)\n-Mancini\n-Bovio\n-Facchini\n-Vico\n-LuigiPera(va bene anche solo Luigi o Pera)'
+lista = '-Girasole\n-Hibiscus\n-iris\n-orchidea\n-Rosmarino\n-Rosa\n-Segromigno(gli raggruppa)\n\n-Gagno rosso\nGagno giallo\n-Gagno verde\n-Gagno blu\n-Gagno(gli raggruppa)\n\n-Lenze totale\n-Lenze pt(Piano terra)\n-Lenze 1p(primo piano\n-Lenze 1pt(primo piano con terrazzo)\n-Lenze (gli raggruppa)\n\n-Pisano\n-Puccini\n-Ville (Via delle Ville)\n-Alessio (Sant Alessio)\nAntonio (Sant Antonio)\n-Mancini\n-Bovio\n-Facchini\n-Vico\n-LuigiPera(va bene anche solo Luigi o Pera)\n\n-----------\n\nWELCOME\n\n-arco\n-bbanditelle\n-books\n-angeli\n-livia\n-mercanti\n-charne1\n-charme2\n-charme3\n-charme(gli raggruppa)\n-marta\n-fontina\n-cottage\n-keith\n-dune\n-mura\n-loft\n-mda(countryside)\n-sweet\n-riverside\n-maria\n-sunny\n-torre'
 
 aiuto = '- Puoi inserire nome o codice dell appartamento\n\n- "Lista" avrai la lista completa degli appartamenti\n\n- "Segromigno" raggruppa gli appartaemnti di Segromigno\n\n- "Gagno" raggruppa gli appartamenti di gagno\n\n- "Lenze" raggruppa gli appartaemnti di Via delle Lenze'
 
@@ -112,7 +126,6 @@ def echo_message(message):
     elif message.text == 'Antonio' or  message.text == 'antonio' or message.text == 'PIPSIF1102' or message.text == '1102':
         bot.reply_to(message, antonio)
 
-
     elif message.text == 'Mancini' or  message.text == 'mancini' or message.text == 'LULCCF686' or message.text == '686':
         bot.reply_to(message, mancini)
 
@@ -128,10 +141,8 @@ def echo_message(message):
     elif message.text == 'Gagno Red' or  message.text == 'gagno red' or message.text == 'Gagno red' or message.text == 'gagno Red'or  message.text == 'Gagno Rosso' or message.text == 'gagno rosso' or message.text == 'Gagno rosso' or message.text == 'gagno Rosso' or message.text == 'PIPSIF721' or message.text == '721':
         bot.reply_to(message, gagnoRosso)
 
-
     elif message.text == 'Gagno' or  message.text == 'gagno':
         bot.reply_to(message, gagno)
-
 
     elif message.text == 'Lenze totale' or  message.text == 'lenze totale' or message.text == 'PIPSIF1031' or message.text == '1031':
         bot.reply_to(message, lenzeTot)
@@ -184,8 +195,54 @@ def echo_message(message):
     elif message.text == 'CHARME3' or message.text == 'Charme3'or message.text == 'charme3':
         bot.reply_to(message, charme3)
 
+    elif message.text == 'MARTA' or message.text == 'Marta'or message.text == 'marta':
+        bot.reply_to(message, marta)
 
-    elif message.text == 'Lista' or message.text == 'lista':
+    elif message.text == 'fontina' or message.text == 'FONTINA'or message.text == 'Fontina':
+        bot.reply_to(message, fontina)
+
+    elif message.text == 'cottage' or message.text == 'Cottage'or message.text == 'COTTAGE':
+        bot.reply_to(message, cottage)
+
+    elif message.text == 'keith' or message.text == 'Keith'or message.text == 'KEITH':
+        bot.reply_to(message, keith)
+
+    elif message.text == 'dune' or message.text == 'Dune'or message.text == 'DUNE':
+        bot.reply_to(message, dune)
+
+    elif message.text == 'mura' or message.text == 'Mura'or message.text == 'MURA':
+        bot.reply_to(message, mura)
+
+    elif message.text == 'loft' or message.text == 'Loft'or message.text == 'LOFT':
+        bot.reply_to(message, loft)
+
+    elif message.text == 'mda' or message.text == 'MDA'or message.text == 'Mda' or message.text == 'Countryside'or message.text == 'countryside':
+        bot.reply_to(message, mda)
+
+    elif message.text == 'sweet' or message.text == 'Sweet'or message.text == 'SWEET':
+        bot.reply_to(message, sweet)
+
+    elif message.text == 'riverside' or message.text == 'Riverside'or message.text == 'RIVERSIDE':
+        bot.reply_to(message, riverside)
+
+    elif message.text == 'maria' or message.text == 'Maria'or message.text == 'MARIA':
+        bot.reply_to(message, maria)
+
+    elif message.text == 'sunny' or message.text == 'Sunny'or message.text == 'SUNNY':
+        bot.reply_to(message, sunny)
+
+    elif message.text == 'torre' or message.text == 'Torre'or message.text == 'TORRE':
+        bot.reply_to(message, sunny)
+
+
+
+
+
+
+    elif message.text == 'charme' or message.text == 'Charme'or message.text == 'CHARME':
+        bot.reply_to(message, charme)
+
+    elif message.text == 'Lista' or message.text == 'lista' or message.text == 'LISTA':
         bot.reply_to(message, lista)
 
 
