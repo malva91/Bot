@@ -66,7 +66,7 @@ riverside = 'Indirizzo:\nVIA BONACCORSI DA PADULE 14\n\nNome:\nRIVERSIDE\n\nComp
 maria =  'Indirizzo:\nVIA DON GETANO BOSCHI 1\n\nNome:\nSANTA MARIA\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO CON MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n1 ore\n\nNote:\n'
 sunny = 'Indirizzo:\nVIA LEONARDO DA VINCI 5\n\nNome:\nSUNNY\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 1 BAGNO\n\nOspiti: 4\n\nOre:\n2 ore\n\nNote:\n'
 torre = 'Indirizzo:\nVIA RISORGIMENTO 10\n\nNome:\nTORRE\n\nComposizione:\n2 MATRIMONIALI + 1 DIVANO LETTO SINGOLO CON MATERASSO + 2 BAGNI\n\nOspiti: 5\n\nOre:\n1,5 ore\n\nNote:\n'
-charme = charme1 + charme2 + charme3
+charme = charme1 + spazio + charme2 + spazio + charme3
 
 
 lista = '-Girasole\n-Hibiscus\n-iris\n-orchidea\n-Rosmarino\n-Rosa\n-Segromigno(gli raggruppa)\n\n-Gagno rosso\nGagno giallo\n-Gagno verde\n-Gagno blu\n-Gagno(gli raggruppa)\n\n-Lenze totale\n-Lenze pt(Piano terra)\n-Lenze 1p(primo piano\n-Lenze 1pt(primo piano con terrazzo)\n-Lenze (gli raggruppa)\n\n-Pisano\n-Puccini\n-Ville (Via delle Ville)\n-Alessio (Sant Alessio)\nAntonio (Sant Antonio)\n-Mancini\n-Bovio\n-Facchini\n-Vico\n-LuigiPera(va bene anche solo Luigi o Pera)\n\n-----------\n\nWELCOME\n\n-arco\n-bbanditelle\n-books\n-angeli\n-livia\n-mercanti\n-charne1\n-charme2\n-charme3\n-charme(gli raggruppa)\n-marta\n-fontina\n-cottage\n-keith\n-dune\n-mura\n-loft\n-mda(countryside)\n-sweet\n-riverside\n-maria\n-sunny\n-torre'
