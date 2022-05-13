@@ -6,11 +6,13 @@ API_TOKEN ='5070186228:AAE1GE7uWgeSk7cdVfIk5WEmXIaIyuQYftM'
 bot = telebot.TeleBot(API_TOKEN)
 
 
+# Variabili generiche
 
-
-# Variabili appartamenti
+lista = '-Girasole\n-Hibiscus\n-iris\n-orchidea\n-Rosmarino\n-Rosa\n-Segromigno(gli raggruppa)\n\n-Gagno rosso\nGagno giallo\n-Gagno verde\n-Gagno blu\n-Gagno(gli raggruppa)\n\n-Lenze totale\n-Lenze pt(Piano terra)\n-Lenze 1p(primo piano\n-Lenze 1pt(primo piano con terrazzo)\n-Lenze (gli raggruppa)\n\n-Pisano\n-Puccini\n-Ville (Via delle Ville)\n-Alessio (Sant Alessio)\nAntonio (Sant Antonio)\n-Mancini\n-Bovio\n-Facchini\n-Vico\n-LuigiPera(va bene anche solo Luigi o Pera)\n\n-----------\n\nWELCOME\n\n-arco\n-banditelle\n-books\n-angeli\n-livia\n-mercanti\n-charne1\n-charme2\n-charme3\n-charme(gli raggruppa)\n-marta\n-fontina\n-cottage\n-keith\n-dune\n-mura\n-loft\n-mda(countryside)\n-sweet\n-riverside\n-maria\n-sunny\n-torre\n-pini'
+aiuto = '- Puoi inserire nome o codice dell appartamento\n\n- "Lista" avrai la lista completa degli appartamenti\n\n- "Segromigno" raggruppa gli appartaemnti di Segromigno\n\n- "Gagno" raggruppa gli appartamenti di gagno\n\n- "Lenze" raggruppa gli appartaemnti di Via delle Lenze\n\n- "charme" raggruppa gli appartaemnti di charme'
 spazio = '\n\n\n--------------------------------------\n\n\n'
-bovio = 'Indirizzo:\nViao Giovanni Bovio, 9,Pisa\n\nNome:\nVia Bovio\n\nCodice:\nPIPSIF546\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\n1 ore\n\nNote:\nNOI ABBIAMO CHIAVE DEL PTONE QUELLA DELL APPARTAMENTO è NEL PTA OMBRELLO'
+
+# Variabili appartamenti altido
 
 girasole = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nGirasole\n\nCodice:\nLUSIMF1081\n\nComposizione:\n1 Matrimoniale\n2 Singoli\n1 Bagno\n1 Cucina\n\nOre:\n2 ore e mezzo\n\nNote:\n'
 hibiscus = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nHibiscus\n\nCodice:\nLUSIMF1082\n\nComposizione:\n1 Matrimoniale\n2 Singoli (fatti a divano in cucina)\n1 Bagno\n1 Cucina\n\nOre:\n1 ora e mezzo\n\nNote:\n'
@@ -20,7 +22,7 @@ rosmarino = 'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNom
 rosa =  'Indirizzo:\nVia delle Selvette, 233, 55018, Capannori, Lucca\n\nNome:\nRosa\n\nCodice:\nLUSIMF1086\n\nComposizione:\n1 Matrimoniale\n2 Singoli \n2 Bagno\n1 Cucina\n\nOre:\n2 ore e mezzo\n\nNote:\n'
 segromigno = girasole+spazio+hibiscus+spazio+iris+spazio+orchidea+spazio+rosmarino+spazio+rosa
 
-
+bovio = 'Indirizzo:\nViao Giovanni Bovio, 9,Pisa\n\nNome:\nVia Bovio\n\nCodice:\nPIPSIF546\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n1 Cucina\n\n1 ore\n\nNote:\nNOI ABBIAMO CHIAVE DEL PTONE QUELLA DELL APPARTAMENTO è NEL PTA OMBRELLO'
 pisano = 'Indirizzo:\nViale Giovanni Pisano, 10, Pisa\n\nNome:\nVia Pisano\n\nCodice:\nPIPSIF464\n\nComposizione:\n1 Matrimoniale\n2 Singoli\n1 Divano letto\n1 Bagno\n1 Cucina\n\nOre:\n1,5 ora\n\nNote:\n'
 puccini = 'Indirizzo:\nVia Giacomo Puccini, 151, Viareggio\n\nNome:\nVia Puccini\n\nCodice:\nLUVRGF747\n\nComposizione:\n2 Matrimoniale\n3 Divano Letto\n2 Singoli\n2 Bagno\n2 Cucina\n\nOre:\n2 ore\n\nNote:\nABBIAMO LA CHIAVE DEL PORTONE MENTRE DELLA CASA è NEL PORTA OMBRELLO'
 ville = 'Indirizzo:\nNome:\nVia delle Ville\n\nCodice:\nLUMSGF997\n\nComposizione:\n\nDati ancora mancanti\n\nOre:\n0 ore\n\nNote:\n'
@@ -43,6 +45,7 @@ lenze1P = 'Indirizzo:\nVia delle Lenze, 122, 56122 Pisa\n\nNome:\nVia delle Lenz
 lenze1PT = 'Indirizzo:\nVia delle Lenze, 122, 56122 Pisa\n\nNome:\nVia delle Lenze PRIMO PIANO CON TERRAZZO\n\nCodice:\nPIPSIF10334\n\nComposizione:\n1 Matrimoniale\n1 Bagno\n\nOra:\n1 ora\n\nNote:\n'
 lenze = lenzePT+spazio+lenze1P+spazio+lenze1PT
 
+# Variabili appartamenti welcome
 
 arco = 'Indirizzo:\nVIA DOMENICO CAVALCA 58\n\nNome:\nARCO ANTICO\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 1 SINGOLO/MATRIMONIALE + 1 BAGNO\n\nOspiti: 6\n\nOre:\n? ore\n\nNote:\n'
 banditelle = 'Indirizzo:\n??\n\nNome:\nBANDITELLE\n\nComposizione:\n2 MATRIMONIALI + 1 SINGOLO + 1 BAGNO\n\nOspiti: 5\n\nOre:\n? ore\n\nNote:\n'
@@ -70,23 +73,37 @@ pini = 'Indirizzo:\nVIALE DEI PINI N. 19 - MIGLIARINO.\n\nNome:\nPINI\n\nComposi
 charme = charme1 + spazio + charme2 + spazio + charme3
 
 
-lista = '-Girasole\n-Hibiscus\n-iris\n-orchidea\n-Rosmarino\n-Rosa\n-Segromigno(gli raggruppa)\n\n-Gagno rosso\nGagno giallo\n-Gagno verde\n-Gagno blu\n-Gagno(gli raggruppa)\n\n-Lenze totale\n-Lenze pt(Piano terra)\n-Lenze 1p(primo piano\n-Lenze 1pt(primo piano con terrazzo)\n-Lenze (gli raggruppa)\n\n-Pisano\n-Puccini\n-Ville (Via delle Ville)\n-Alessio (Sant Alessio)\nAntonio (Sant Antonio)\n-Mancini\n-Bovio\n-Facchini\n-Vico\n-LuigiPera(va bene anche solo Luigi o Pera)\n\n-----------\n\nWELCOME\n\n-arco\n-banditelle\n-books\n-angeli\n-livia\n-mercanti\n-charne1\n-charme2\n-charme3\n-charme(gli raggruppa)\n-marta\n-fontina\n-cottage\n-keith\n-dune\n-mura\n-loft\n-mda(countryside)\n-sweet\n-riverside\n-maria\n-sunny\n-torre\n-pini'
 
-aiuto = '- Puoi inserire nome o codice dell appartamento\n\n- "Lista" avrai la lista completa degli appartamenti\n\n- "Segromigno" raggruppa gli appartaemnti di Segromigno\n\n- "Gagno" raggruppa gli appartamenti di gagno\n\n- "Lenze" raggruppa gli appartaemnti di Via delle Lenze\n\n- "charme" raggruppa gli appartaemnti di charme'
-
+# Funzioni bot
 
 @bot.message_handler(commands=['help','start'])
 def send_welcome(message):
     bot.reply_to(
         message, 'Ciao, di che appartamento hai bisogno?')
 
-
-
 @bot.message_handler(func=lambda message: True)
 def echo_message(message):
 
+# raggruppatori
+
+
     if message.text == 'Aiuto' or message.text == 'aiuto':
         bot.reply_to(message,aiuto)
+
+    elif message.text == 'charme' or message.text == 'Charme'or message.text == 'CHARME':
+        bot.reply_to(message, charme)
+
+    elif message.text == 'Lista' or message.text == 'lista' or message.text == 'LISTA':
+        bot.reply_to(message, lista)
+
+    elif message.text == 'Lenze' or message.text == 'lenze':
+        bot.reply_to(message,lenze)
+
+    elif message.text == 'Gagno' or  message.text == 'gagno':
+        bot.reply_to(message, gagno)
+
+
+# appartamenti altido
 
     elif message.text == 'Bovio' or message.text == 'bovio' or message.text == 'PIPSIF546' or message.text == '546':
         bot.reply_to(message,bovio)
@@ -142,9 +159,6 @@ def echo_message(message):
     elif message.text == 'Gagno Red' or  message.text == 'gagno red' or message.text == 'Gagno red' or message.text == 'gagno Red'or  message.text == 'Gagno Rosso' or message.text == 'gagno rosso' or message.text == 'Gagno rosso' or message.text == 'gagno Rosso' or message.text == 'PIPSIF721' or message.text == '721':
         bot.reply_to(message, gagnoRosso)
 
-    elif message.text == 'Gagno' or  message.text == 'gagno':
-        bot.reply_to(message, gagno)
-
     elif message.text == 'Lenze totale' or  message.text == 'lenze totale' or message.text == 'PIPSIF1031' or message.text == '1031':
         bot.reply_to(message, lenzeTot)
 
@@ -157,9 +171,6 @@ def echo_message(message):
     elif message.text == 'Lenze 1pt' or message.text == 'lenze 1pt' or message.text == 'PIPSIF1034' or message.text == '1034':
         bot.reply_to(message, lenze1PT)
 
-    elif message.text == 'Lenze' or message.text == 'lenze':
-        bot.reply_to(message,lenze)
-
     elif message.text == 'Facchini' or message.text == 'facchini' or message.text == 'PIPSIF635' or message.text == '635':
         bot.reply_to(message, facchini )
 
@@ -169,6 +180,8 @@ def echo_message(message):
     elif message.text == 'pera' or message.text == 'Pera'or message.text == 'luigi' or message.text == 'Luigi'or message.text == '1106' or message.text == 'PIPSIF1106':
         bot.reply_to(message, luigiPera)
         
+# appartamenti welcome
+
     elif message.text == 'arco' or message.text == 'Antico'or message.text == 'Arco' or message.text == 'Arco antico'or message.text == 'Arco Antico' or message.text == 'ARCO':
         bot.reply_to(message, arco)
 
@@ -237,19 +250,6 @@ def echo_message(message):
 
     elif message.text == 'pini' or message.text == 'Pini'or message.text == 'PINI':
         bot.reply_to(message, pini)
-
-
-
-
-
-
-    elif message.text == 'charme' or message.text == 'Charme'or message.text == 'CHARME':
-        bot.reply_to(message, charme)
-
-    elif message.text == 'Lista' or message.text == 'lista' or message.text == 'LISTA':
-        bot.reply_to(message, lista)
-
-
 
 
     else:
