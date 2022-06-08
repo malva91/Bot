@@ -8,7 +8,7 @@ bot = telebot.TeleBot(API_TOKEN)
 
 # Variabili generiche
 
-lista = '-Girasole\n-Hibiscus\n-iris\n-orchidea\n-Rosmarino\n-Rosa\n-Segromigno(gli raggruppa)\n\n-Gagno rosso\nGagno giallo\n-Gagno verde\n-Gagno blu\n-Gagno(gli raggruppa)\n\n-Lenze totale\n-Lenze pt(Piano terra)\n-Lenze 1p(primo piano\n-Lenze 1pt(primo piano con terrazzo)\n-Lenze (gli raggruppa)\n\n-Pisano\n-Puccini\n-Ville (Via delle Ville)\n-Alessio (Sant Alessio)\nAntonio (Sant Antonio)\n-Mancini\n-Bovio\n-Facchini\n-Vico\n-LuigiPera(va bene anche solo Luigi o Pera)\n\n-----------\n\nWELCOME\n\n-arco\n-banditelle\n-books\n-angeli\n-livia\n-mercanti\n-charne1\n-charme2\n-charme3\n-charme(gli raggruppa)\n-marta\n-fontina\n-cottage\n-keith\n-dune\n-mura\n-loft\n-mda(countryside)\n-sweet\n-riverside\n-maria\n-sunny\n-torre\n-pini'
+lista = '-Girasole\n-Hibiscus\n-iris\n-orchidea\n-Rosmarino\n-Rosa\n-Segromigno(gli raggruppa)\n\n-Gagno rosso\nGagno giallo\n-Gagno verde\n-Gagno blu\n-Gagno(gli raggruppa)\n\n-Lenze totale\n-Lenze pt(Piano terra)\n-Lenze 1p(primo piano\n-Lenze 1pt(primo piano con terrazzo)\n-Lenze (gli raggruppa)\n\n-Pisano\n-Puccini\n-Ville (Via delle Ville)\n-Alessio (Sant Alessio)\nAntonio (Sant Antonio)\n-Mancini\n-Bovio\n-Facchini\n-Vico\n-Belletorri\n-LuigiPera(va bene anche solo Luigi o Pera)\n\n-----------\n\nWELCOME\n\n-arco\n-banditelle\n-books\n-angeli\n-livia\n-mercanti\n-charne1\n-charme2\n-charme3\n-charme(gli raggruppa)\n-marta\n-fontina\n-cottage\n-keith\n-dune\n-mura\n-loft\n-mda(countryside)\n-sweet\n-riverside\n-maria\n-sunny\n-torre\n-pini'
 aiuto = '- Puoi inserire nome o codice dell appartamento\n\n- "Lista" avrai la lista completa degli appartamenti\n\n- "Segromigno" raggruppa gli appartaemnti di Segromigno\n\n- "Gagno" raggruppa gli appartamenti di gagno\n\n- "Lenze" raggruppa gli appartaemnti di Via delle Lenze\n\n- "charme" raggruppa gli appartaemnti di charme'
 spazio = '\n\n\n--------------------------------------\n\n\n'
 
@@ -31,7 +31,8 @@ antonio = 'Indirizzo:\nVia di Sant Antonio, 6, Pisa\n\nNome:\nVia di Sant Antoni
 mancini = 'Indirizzo:\nVia Augusto Mancini, 49, Lucca\n\nNome:\nVia Mancini\n\nCodice:\nLULCCF686\n\nComposizione:\n2 Matrimoniale\n1 Singolo\n1 Divano letto\n2 Bagni\n1 Cucina\n\nOre:\n2 ore\n\nNote:\nLE CHIAVI SONO NELLA CASSETTA DELLA POSTA'
 facchini = 'Indirizzo:\nVia dei Facchini, 10, Pisa\n\nNome:\nVia Facchini\n\nCodice:\nPIPSIF635\n\nComposizione:\n1 Matrimoniale\n\n1 Divano letto\n2 Sigoli\n1 Bagno\n1 Cucina\n\nOre:\n1 ora e mezzo\n\nNote:\n'
 vico = 'Indirizzo:\nVia Giovan Battista Vico, 19, Forte dei Marmi\n\nNome:\nVico\n\nCodice:\nLUFRTF468\n\nComposizione:\n2 Matrimoniale\n1 Sigolo\n1 Poltrola Letto\n1 Bagno\n1 Cucina\n\nOre:\n2 ore\n\nNote:\n'
-luigiPera = 'Indirizzo:\nVia Luigi Pera ,14, Pisa\n\nNome:\nCisanello\n\nCodice:\nPIPSIF1106\n\nComposizione:\n1 Matrimoniale\n1 Divano letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora\nNote:\n'
+luigiPera = 'Indirizzo:\nVia Luigi Pera ,14, Pisa\n\nNome:\nLuigiPera\n\nCodice:\nPIPSIF1106\n\nComposizione:\n1 Matrimoniale\n1 Divano letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora\nNote:\n'
+belleTorri = 'Indirizzo:\nVia Delle Belle Torri,18, Pisa\n\nNome:\nBelleTorri\n\nCodice:\nPIPSIF977\n\nComposizione:\n1 Matrimoniale\n2 Sigoli\n2 Bagno\n1 Cucina\n\nOre:\n? ora\nNote:\n'
 
 gagnoVerde = 'Indirizzo:\nVia di Gagno, 50, Pisa (Primo piano)\n\nNome:\nGagno verde\n\nCodice:\nPIPSIF720\n\nComposizione:\n1 Matrimoniale\n1 Divano Letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora\n\nNote:\n'
 gagnoBlu = 'Indirizzo:\nVia di Gagno, 50, Pisa (Secondo piano)\n\nNome:\nGagno blu\n\nCodice:\nPIPSIF719\n\nComposizione:\n1 Matrimoniale\n1 Divano Letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora\n\nNote:\n'
@@ -180,6 +181,9 @@ def echo_message(message):
     elif message.text == 'pera' or message.text == 'Pera'or message.text == 'luigi' or message.text == 'Luigi'or message.text == '1106' or message.text == 'PIPSIF1106':
         bot.reply_to(message, luigiPera)
         
+    elif message.text == 'Belle' or message.text == 'belle'or message.text == 'Torri' or message.text == 'torri'or message.text == 'Belletorri' or message.text == '977' or message.text == 'PIPSIF977':
+        bot.reply_to(message, belleTorri)      
+
 # appartamenti welcome
 
     elif message.text == 'arco' or message.text == 'Antico'or message.text == 'Arco' or message.text == 'Arco antico'or message.text == 'Arco Antico' or message.text == 'ARCO':
