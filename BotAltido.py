@@ -32,7 +32,7 @@ mancini = 'Indirizzo:\nVia Augusto Mancini, 49, Lucca\n\nNome:\nVia Mancini\n\nC
 facchini = 'Indirizzo:\nVia dei Facchini, 10, Pisa\n\nNome:\nVia Facchini\n\nCodice:\nPIPSIF635\n\nComposizione:\n1 Matrimoniale\n\n1 Divano letto\n2 Sigoli\n1 Bagno\n1 Cucina\n\nOre:\n1 ora e mezzo\n\nNote:\n'
 vico = 'Indirizzo:\nVia Giovan Battista Vico, 19, Forte dei Marmi\n\nNome:\nVico\n\nCodice:\nLUFRTF468\n\nComposizione:\n2 Matrimoniale\n1 Sigolo\n1 Poltrola Letto\n1 Bagno\n1 Cucina\n\nOre:\n2 ore\n\nNote:\n'
 luigiPera = 'Indirizzo:\nVia Luigi Pera ,14, Pisa\n\nNome:\nLuigiPera\n\nCodice:\nPIPSIF1106\n\nComposizione:\n1 Matrimoniale\n1 Divano letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora\nNote:\n'
-belleTorri = 'Indirizzo:\nVia Delle Belle Torri,18, Pisa\n\nNome:\nBelleTorri\n\nCodice:\nPIPSIF977\n\nComposizione:\n1 Matrimoniale\n2 Sigoli\n2 Bagno\n1 Cucina\n\nOre:\n? ora\nNote:\n'
+belleTorri = 'Indirizzo:\nVia Delle Belle Torri,18, Pisa\n\nNome:\nBelleTorri\n\nCodice:\nPIPSIF977\n\nComposizione:\n1 Matrimoniale\n2 Sigoli\n2 Bagno\n1 Cucina\n\nOre:\n2 ora\nNote:\n'
 
 gagnoVerde = 'Indirizzo:\nVia di Gagno, 50, Pisa (Primo piano)\n\nNome:\nGagno verde\n\nCodice:\nPIPSIF720\n\nComposizione:\n1 Matrimoniale\n1 Divano Letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora\n\nNote:\n'
 gagnoBlu = 'Indirizzo:\nVia di Gagno, 50, Pisa (Secondo piano)\n\nNome:\nGagno blu\n\nCodice:\nPIPSIF719\n\nComposizione:\n1 Matrimoniale\n1 Divano Letto\n1 Bagno\n1 Cucina\n\nOre:\n1 ora\n\nNote:\n'
