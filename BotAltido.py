@@ -181,7 +181,7 @@ def echo_message(message):
     elif message.text == 'pera' or message.text == 'Pera'or message.text == 'luigi' or message.text == 'Luigi'or message.text == '1106' or message.text == 'PIPSIF1106':
         bot.reply_to(message, luigiPera)
         
-    elif message.text == 'Belle torri' or message.text == 'Belle' or message.text == 'belle'or message.text == 'Torri' or message.text == 'torri'or message.text == 'Belletorri' or message.text == '977' or message.text == 'PIPSIF977':
+    elif message.text == 'belle torri' or message.text == 'Belle torri' or message.text == 'Belle' or message.text == 'belle'or message.text == 'Torri' or message.text == 'torri'or message.text == 'Belletorri' or message.text == '977' or message.text == 'PIPSIF977':
         bot.reply_to(message, belleTorri)      
 
 # appartamenti welcome
