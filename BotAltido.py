@@ -1,6 +1,7 @@
 import telebot
-API_TOKEN ='5070186228:AAE1GE7uWgeSk7cdVfIk5WEmXIaIyuQYftM'
 
+
+API_TOKEN ='5070186228:AAE1GE7uWgeSk7cdVfIk5WEmXIaIyuQYftM'
 
 bot = telebot.TeleBot(API_TOKEN)
 
@@ -70,6 +71,7 @@ maria =  'Indirizzo:\nVIA DON GETANO BOSCHI 1\n\nNome:\nSANTA MARIA\n\nComposizi
 sunny = 'Indirizzo:\nVIA LEONARDO DA VINCI 5\n\nNome:\nSUNNY\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 1 BAGNO\n\nOspiti: 4\n\nOre:\n2 ore\n\nNote:\n'
 torre = 'Indirizzo:\nVIA RISORGIMENTO 10\n\nNome:\nTORRE\n\nComposizione:\n2 MATRIMONIALI + 1 DIVANO LETTO SINGOLO CON MATERASSO + 2 BAGNI\n\nOspiti: 5\n\nOre:\n1,5 ore\n\nNote:\n'
 pini = 'Indirizzo:\nVIALE DEI PINI N. 19 - MIGLIARINO.\n\nNome:\nPINI\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 2 DIVANI LETTO DA UNA PIAZZA E MEZZA\n\nOspiti: 6\n\nOre:\n2 ore\n\nNote:\n'
+inbetween = 'Indirizzo:\n Via Don Gaetano Boschi n. 20\n\nNome:\ninbetween\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO DA 1 PIAZZA E MEZZO\n\nOspiti: 3\n\nOre:\n1 ore\n\nNote:\n'
 charme = charme1 + spazio + charme2 + spazio + charme3
 
 
@@ -224,10 +226,10 @@ def echo_message(message):
     elif message.text == 'keith' or message.text == 'Keith'or message.text == 'KEITH':
         bot.reply_to(message, keith)
 
-    elif message.text == 'dune' or message.text == 'Dune'or message.text == 'DUNE':
+    elif message.text == 'dune' or message.text == 'Dune'or message.text == 'DUNE' or message.text == 'W003':
         bot.reply_to(message, dune)
 
-    elif message.text == 'mura' or message.text == 'Mura'or message.text == 'MURA':
+    elif message.text == 'mura' or message.text == 'Mura'or message.text == 'MURA' or message.text == 'W004':
         bot.reply_to(message, mura)
 
     elif message.text == 'loft' or message.text == 'Loft'or message.text == 'LOFT':
@@ -245,14 +247,21 @@ def echo_message(message):
     elif message.text == 'maria' or message.text == 'Maria'or message.text == 'MARIA':
         bot.reply_to(message, maria)
 
-    elif message.text == 'sunny' or message.text == 'Sunny'or message.text == 'SUNNY':
+
+
+    elif message.text == 'sunny' or message.text == 'Sunny'or message.text == 'SUNNY' or message.text == 'W002':
         bot.reply_to(message, sunny)
 
-    elif message.text == 'torre' or message.text == 'Torre'or message.text == 'TORRE':
+    elif message.text == 'torre' or message.text == 'Torre'or message.text == 'TORRE' or message.text == 'W001':
         bot.reply_to(message, torre)
 
-    elif message.text == 'pini' or message.text == 'Pini'or message.text == 'PINI':
+    elif message.text == 'pini' or message.text == 'Pini'or message.text == 'PINI' or message.text == 'W005':
         bot.reply_to(message, pini)
+
+    elif message.text == 'inbetween' or message.text == 'Inbetween'or message.text == 'W006':
+        bot.reply_to(message, inbetween)
+
+ 
 
 
     else:
