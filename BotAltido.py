@@ -61,17 +61,18 @@ marta = 'Indirizzo:\nVIA SANTA MARTA 84\n\nNome:\nDA MARTA\n\nComposizione:\n1 M
 fontina = 'Indirizzo:\n?\n\nNome:\nFONTINA 1\n\nComposizione:\n1 LETTO MATRIMONIALE + 1 BAGNO\n\nOspiti: 2\n\nOre:\n? ore\n\nNote:\n'
 cottage = 'Indirizzo:\nVIA FRANCESCO DOMENICO GUERRAZZI 8 (SAN GIULIANO )\n\nNome:\nGRANDMA^S COTTAGE\n\nComposizione:\n1 MATRIMONIALE + 1 SINGOLO + 1 DIVANO LETTO MATRIMONIALE SENZA MATERASSO + 1 BAGNO\n\nOspiti: 5\n\nOre:\n1,5 ore\n\nNote:\n'
 keith = 'Indirizzo:\nVIA GIUSEPPE MAZZINI 136\n\nNome:\nKEITH HARING\n\nComposizione:\n2 MATRIMONIALI + 2 DIVANI LETTO MATRIMONIALI SENZA MATERASSO + 2 BAGNI\n\nOspiti: 8\n\nOre:\n2 ore\n\nNote:\n'
-dune = 'Indirizzo:\nVIALE DEI PINI 85 (VECCHIANO)\n\nNome:\nLE DUNE\n\nComposizione:\n1 MATRIMANIALE + 1 BRANDINA SINGOLA + 1 BAGNO\n\nOspiti: 3\n\nOre:\n1 ore\n\nNote:\n'
+dune = 'Indirizzo:\nVIALE DEI PINI 85 (VECCHIANO)\n\nNome:\nLE DUNE\n\nComposizione:\n1 MATRIMANIALE + 1 BRANDINA SINGOLA + 1 BAGNO\n\nOspiti: 3\n\nOre:\n1 ore\n\nNote:\ncodice KeyBox 3411'
 mura = 'Indirizzo:\nVia cardinale Maffi 36\n\nNome:\nLE MURA\n\nComposizione:\n1 MATRIMONIALE + 1 DIBVANO LETTO MATRIMONIALE CON MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n1 ore\n\nNote:\n'
 loft = 'Indirizzo:\nVIA SAN CASCIANI 2C\n\nNome:\nLOFT\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO CON MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n? ore\n\nNote:\n'
 mda = 'Indirizzo:\nVIA DELLE MURELLA 40 (MADONNA DELL^ACQUUA)\n\nNome:\nMDA COUNTRYSIDE\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 1 DIVANO LETTO SENZA MATERASSO + 2 BAGNI\n\nOspiti: 6\n\nOre:\n1,5 ore\n\nNote:\n'
 sweet = 'Indirizzo:\nVIA PALLADIO 31 (BIENTINA)\n\nNome:\nSWEET\n\nComposizione:\n1 MATRIMONIALE + 1 SINGOLO/MATRIMONIALE + 1 DIVANO LETTO MATRIMONIALE SENZA MATERASSO + 2 BAGNI\n\nOspiti: 6\n\nOre:\n1,5 ore\n\nNote:\nPortare biancheria nostra'
 riverside = 'Indirizzo:\nVIA BONACCORSI DA PADULE 14\n\nNome:\nRIVERSIDE\n\nComposizione:\n3 MATRIMONIALI + 1 SINGOLO + 1 DIVANO LETTO SENZA MATERASSO + 2 BAGNI\n\nOspiti: 9\n\nOre:\n? ore\n\nNote:\n'
 maria =  'Indirizzo:\nVIA DON GETANO BOSCHI 1\n\nNome:\nSANTA MARIA\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO CON MATERASSO + 1 BAGNO\n\nOspiti: 4\n\nOre:\n1 ore\n\nNote:\n'
-sunny = 'Indirizzo:\nVIA LEONARDO DA VINCI 5\n\nNome:\nSUNNY\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 1 BAGNO\n\nOspiti: 4\n\nOre:\n2 ore\n\nNote:\n'
+sunny = 'Indirizzo:\nVIA LEONARDO DA VINCI 5\n\nNome:\nSUNNY\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 1 BAGNO\n\nOspiti: 4\n\nOre:\n2 ore\n\nNote:\ncodice KeyBox 4492'
 torre = 'Indirizzo:\nVIA RISORGIMENTO 10\n\nNome:\nTORRE\n\nComposizione:\n2 MATRIMONIALI + 1 DIVANO LETTO SINGOLO CON MATERASSO + 2 BAGNI\n\nOspiti: 5\n\nOre:\n1,5 ore\n\nNote:\n'
-pini = 'Indirizzo:\nVIALE DEI PINI N. 19 - MIGLIARINO.\n\nNome:\nPINI\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 2 DIVANI LETTO DA UNA PIAZZA E MEZZA\n\nOspiti: 6\n\nOre:\n2 ore\n\nNote:\n'
-inbetween = 'Indirizzo:\n Via Don Gaetano Boschi n. 20\n\nNome:\ninbetween\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO DA 1 PIAZZA E MEZZO\n\nOspiti: 3\n\nOre:\n1 ore\n\nNote:\n'
+pini = 'Indirizzo:\nVIALE DEI PINI N. 19 - MIGLIARINO.\n\nNome:\nPINI\n\nComposizione:\n1 MATRIMONIALE + 2 SINGOLI + 2 DIVANI LETTO DA UNA PIAZZA E MEZZA\n\nOspiti: 6\n\nOre:\n2 ore\n\nNote:\ncodice KeyBox 2508'
+inbetween = 'Indirizzo:\n Via Don Gaetano Boschi n. 20\n\nNome:\ninbetween\n\nComposizione:\n1 MATRIMONIALE + 1 DIVANO LETTO DA 1 PIAZZA E MEZZO\n\nOspiti: 3\n\nOre:\n1 ore\n\nNote:\ncodice KeyBox 1957'
+ortensie = 'Indirizzo:\n Via Via Buozzi 4 PONTASSERCHIO\n\nNome:\ortensie\n\nComposizione:\n1 MATRIMONIALE + 4 LETTI SINGOLI\n\nOspiti: 6\n\nOre:\n2,5 ore\n\nNote:\ncodice KeyBox 2468'
 charme = charme1 + spazio + charme2 + spazio + charme3
 
 
@@ -260,6 +261,9 @@ def echo_message(message):
 
     elif message.text == 'inbetween' or message.text == 'Inbetween'or message.text == 'W006':
         bot.reply_to(message, inbetween)
+
+    elif message.text == 'ortensie' or message.text == 'Ortensie'or message.text == 'W007':
+        bot.reply_to(message, ortensie)
 
  
 
