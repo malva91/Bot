@@ -8,8 +8,8 @@ bot = telebot.TeleBot(API_TOKEN)
 
 # Variabili generiche
 
-lista = '-Girasole\n-Hibiscus\n-iris\n-orchidea\n-Rosmarino\n-Rosa\n-Segromigno(gli raggruppa)\n\n-Gagno rosso\nGagno giallo\n-Gagno verde\n-Gagno blu\n-Gagno(gli raggruppa)\n\n-Lenze totale\n-Lenze pt(Piano terra)\n-Lenze 1p(primo piano\n-Lenze 1pt(primo piano con terrazzo)\n-Lenze (gli raggruppa)\n\n-Pisano\n-Puccini\n-Ville (Via delle Ville)\n-Alessio (Sant Alessio)\nAntonio (Sant Antonio)\n-Mancini\n-Bovio\n-Facchini\n-Vico\n-Belletorri\n-LuigiPera(va bene anche solo Luigi o Pera)\n\n-----------\n\nWELCOME\n\n-arco\n-banditelle\n-books\n-angeli\n-livia\n-mercanti\n-charne1\n-charme2\n-charme3\n-charme(gli raggruppa)\n-marta\n-fontina\n-cottage\n-keith\n-dune\n-mura\n-loft\n-mda(countryside)\n-sweet\n-riverside\n-maria\n-sunny\n-torre\n-pini\n-ortensie'
-aiuto = '- Puoi inserire nome o codice dell appartamento\n\n- "Lista" avrai la lista completa degli appartamenti\n\n- "Segromigno" raggruppa gli appartaemnti di Segromigno\n\n- "Gagno" raggruppa gli appartamenti di gagno\n\n- "Lenze" raggruppa gli appartaemnti di Via delle Lenze\n\n- "charme" raggruppa gli appartaemnti di charme'
+lista = '-Gagno rosso\nGagno giallo\n-Gagno verde\n-Gagno blu\n-Gagno(gli raggruppa)\n-Pisano\nAntonio (Sant Antonio)\n-Bovio\n-Facchini\n-Belletorri\n-LuigiPera(va bene anche solo Luigi o Pera)\n\n-----------\n\nWELCOME\n\n-dune\n-mura\n-sunny\n-torre\n-pini\n-inbetween\n-ortensie'
+aiuto = '- Puoi inserire nome o codice dell appartamento\n\n- "Lista" avrai la lista completa degli appartamenti\n\n-"Gagno" raggruppa gli appartamenti di gagno'
 spazio = '\n\n\n--------------------------------------\n\n\n'
 
 # Variabili appartamenti altido
